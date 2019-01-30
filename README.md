@@ -1,11 +1,12 @@
 # Population_35FR
-Analysis of the population of one French department (35 Ille-et-Vilaine)
+Analysis of the population of one French department (Ille-et-Vilaine - 35)
 
-Nombre de ville: 345
-
-Population départementale: 1 019 923
+## Introduction
+The purpose of this study is to give some basic information about the demography of a French department (Ille-et-Vilaine - 35). The data are coming from the following French Government API https://geo.api.gouv.fr. The data used were up-to-date as of December 2018.
 
 ## Key figures
+
+**This table summarises key figures extracted from the data**
 
 |          | Population | Area [km<sup>2</sup>] | Density [pop/km<sup>2</sup>]
 ---------- | ---------- | --------------------  | ------------------
@@ -15,4 +16,15 @@ Average    | 2 956      | 19.82                 | 155
 Maximum    | 211 373    | 110.66                | 4 195
 Department | 1 019 923  | 6 840.54              | 149
 
+**The most populated cities are:**    ----   **The least populated cities are: ** &nbsp;
+- Rennes
+- Saint-Malo
+- Bruz
+
+
+
+
+## Data visualisation
 ![](/Graphs/CityPopulation.png)
+
+## Top 3 and last 3 for different categories (pop, area, density)
