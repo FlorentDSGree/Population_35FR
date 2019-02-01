@@ -16,10 +16,7 @@ Average    | 2 956      | 19.82                 | 155
 Maximum    | 211 373    | 110.66                | 4 196
 Department | 1 019 923  | 6 840.54              | 149
 
-**The most populated cities are: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; The least populated cities are:**
-- Rennes
-- Saint-Malo
-- Bruz
+**This table gives  top 3 and bottom 3 of each of the 3 categrories (population, area and density)**
 
 | | Top 3 | Bottom 3 | 
 |-|-------|----------|
@@ -31,3 +28,4 @@ Department | 1 019 923  | 6 840.54              | 149
 ![](/Graphs/CityPopulation.png)
 
 ## Top 3 and last 3 for different categories (pop, area, density)
+**The most populated cities are: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; The least populated cities are:**
