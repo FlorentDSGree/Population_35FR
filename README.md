@@ -2,7 +2,9 @@
 Analysis of the population of one French department (Ille-et-Vilaine - 35)
 
 ## 1.Introduction
+<p align="justify">
 The purpose of this study is to give some basic information about the demography of a French department (Ille-et-Vilaine - 35). The data are coming from the following French Government API https://geo.api.gouv.fr. The data used were up-to-date as of December 2018.
+</p>
 
 ## 2.Statistics
 
@@ -25,15 +27,25 @@ The purpose of this study is to give some basic information about the demography
 |**Density [pop/km<sup>2</sup>]**|Rennes - 4 196 <br> Fougères - 1 934 <br> Bécherel - 1 289 |Paimpont - 15 <br> Rannée - 21 <br> Eancé - 24|
 
 **Comment**
-
+<t align="justify"> 
 Almost 21% of the department population lives in the biggest and most densely populated city, Rennes. The cities with the highest population have some of the highest density population (i.e. Rennes, Saint-Malo (5th highest density), Fougères). However, the third highest densely populated city (Bécherel) has only 722 inhabitants. This high density rate is due the size of its teritory, the smallest in the departement.
-
+</t>
 
 ## 3.Data visualisation
+
+**Number of city per population bins**
+
 
 <p align="center"> 
   <img src="/Graphs/CityPopulation.png">
 </p>
+
+
+Comment
+
+
+The most representated city population bins is between 1000 to 2000 inhabitants.
+
 
 ## Top 3 and last 3 for different categories (pop, area, density)
 **The most populated cities are: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; The least populated cities are:**
