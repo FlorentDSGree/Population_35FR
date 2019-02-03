@@ -35,17 +35,13 @@ Almost 21% of the department population lives in the biggest and most densely po
 
 **Number of city per population bins**
 
-
 <p align="center"> 
   <img src="/Graphs/CityPopulation.png">
 </p>
 
-
-Comment
-
-
+**Comment**
+<t align="justify"> 
 The most representated city population bins is between 1000 to 2000 inhabitants.
+</t>
 
-
-## Top 3 and last 3 for different categories (pop, area, density)
 **The most populated cities are: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; The least populated cities are:**
