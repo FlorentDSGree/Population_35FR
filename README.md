@@ -20,11 +20,10 @@ The purpose of this study is to give some basic information about the demography
 
 **Table 2: Top 3 and bottom 3 cities for population, area and density**
 
-| | Top 3 | Bottom 3 | 
-|-|:-------:|:----------:|
-|**Population**|Rennes - 211,373 <br> Saint-Malo - 44,919 <br> Fougères - 20,170 |Bléruais - 107 <br> Lanrigan - 149 <br> La Selle-Guerchaise	 - 154|
-|**Area [km<sup>2</sup>]**|Paimpont - 110.66 <br> Guipry-Messac - 92.3 <br> Val d'Anast - 76.68 |Bécherel - 0.56 <br> Châteauneuf-d'Ille-et-Vilaine - 1.39 <br> La Selle-Guerchaise - 2.17|
-|**Density [pop/km<sup>2</sup>]**|Rennes - 4,196 <br> Fougères - 1,934 <br> Bécherel - 1,289 |Paimpont - 15 <br> Rannée - 21 <br> Eancé - 24|
+| |Population|Area [km<sup>2</sup>]|Density [pop/km<sup>2</sup>]|
+|-|:-------:|:----------:|:----------:|
+|**Top 3**|Rennes - 211,373 <br> Saint-Malo - 44,919 <br> Fougères - 20,170|Paimpont - 110.66 <br> Guipry-Messac - 92.3 <br> Val d'Anast - 76.68|Rennes - 4,196 <br> Fougères - 1,934 <br> Bécherel - 1,289|
+|**Bottom 3**|La Selle-Guerchaise	 - 154 <br> Lanrigan - 149 <br> Bléruais - 107|La Selle-Guerchaise - 2.17 <br> Châteauneuf-d'Ille-et-Vilaine - 1.39 <br> Bécherel - 0.56|Eancé - 24 <br> Rannée - 21 <br> Paimpont - 15|
 
 **Comment:** 
 <p align="justify">
