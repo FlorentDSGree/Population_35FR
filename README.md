@@ -33,6 +33,8 @@ Almost 21% of the department population lives in the biggest and most densely po
 
 ## 3.Data visualisation
 
+### 3.1. City population
+
 **Figure 1: Number of city per population bins**
 <p align="center"> 
   <img src="/Graphs/321_CityPopulation.png">
@@ -48,5 +50,21 @@ Almost 21% of the department population lives in the biggest and most densely po
 Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The most representated city population bin is between 1,000 to 2,000 inhabitants, it accounts for 30% of all the department cities. The second most represented population bin is the one ranging from 2,000 to 3,000 inhabitants (11%). Cities from 1,000 to 3,000 inhabitants represent about 41% of the department cities. 37% of the cities have up to 1,000 inhabitants. 68% of the cities have 2,000 inhabitants or less. Less than 10% of the cities have at least 5,000 inhabitants, finally cities accommodating 10,000 inhabitants account for only 1% of the department cities.
 </p>
 
+### 3.2. City area
+
+**Figure 3: Area of city per population bins**
+<p align="center"> 
+  <img src="/Graphs/331_CityArea.png">
+</p>
+
+**Figure 4: Cumulative area of city per population bins**
+<p align="center"> 
+  <img src="/Graphs/332_CityAreaDistribution.png">
+</p>
+
+**Comment:**
+<p align="justify"> 
+Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The majority of the cities have a territory ranging from 10 to 20 km<sup>2</sup>
+</p>
 
 **The most populated cities are: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; The least populated cities are:**
