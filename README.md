@@ -1,12 +1,12 @@
 # Population_35FR
 Analysis of the population of one French department (Ille-et-Vilaine - 35)
 
-## 1.Introduction
+## 1. Introduction
 <p align="justify">
 The purpose of this study is to give some basic information about the demography of a French department (Ille-et-Vilaine - 35). The data are coming from the following French Government API https://geo.api.gouv.fr. The data used were up-to-date as of December 2018. The data have been queried for all the department and then saved as NoSQL database locally. Thus, there is no need anymore to query from the API (except to update with latest API data) and the analysis can be done offline.
 </p>
 
-## 2.Statistics
+## 2. Statistics
 
 **Table 1: Basic statistics**
  
@@ -31,7 +31,7 @@ The purpose of this study is to give some basic information about the demography
 Almost 21% of the department population lives in the biggest and most densely populated city, Rennes. The cities with the highest population have some of the highest density population (i.e. Rennes, Saint-Malo (5th highest density), Fougères). However, the third highest densely populated city (Bécherel) has only 722 inhabitants. This high density rate is due the size of its teritory, the smallest in the departement.
 </p>
 
-## 3.Data visualisation
+## 3. Data visualisation
 
 ### 3.1. City population
 
@@ -52,19 +52,38 @@ Mind the x-axis unit, logarithmic unit is used here to make the figure more read
 
 ### 3.2. City area
 
-**Figure 3: Area of city per population bins**
+**Figure 3: Area of city per area bins**
 <p align="center"> 
   <img src="/Graphs/331_CityArea.png">
 </p>
 
-**Figure 4: Cumulative area of city per population bins**
+**Figure 4: Cumulative area of city per area bins**
 <p align="center"> 
   <img src="/Graphs/332_CityAreaDistribution.png">
 </p>
 
 **Comment:**
 <p align="justify"> 
-Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The majority of the cities have a territory ranging from 10 to 20 km<sup>2</sup>
+Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The majority of the cities have a territory ranging from 10km<sup>2</sup> to 20 km<sup>2</sup> and 19% of the cities have an area between 20km<sup>2</sup> and 30 km<sup>2</sup>. Only one city has a territory lower than 1km<sup>2</sup>. 27% of the cities have an area below or equal to 10km<sup>2</sup>. 63% of the cities area goes up to 20km<sup>2</sup>. The cities with a territory higher than 30km<sup>2</sup> account for a bit less than 10% of the cities. Finally, about 2 % of the cities have an area lower than 1km<sup>2</sup> or higher than 70km<sup>2</sup>.
 </p>
+
+### 3.3. City population density
+
+**Figure 5: Density of city per density population bins**
+<p align="center"> 
+  <img src="/Graphs/341_CityPopulationDensity.png">
+</p>
+
+**Figure 6: Cumulative density of city per density population bins**
+<p align="center"> 
+  <img src="/Graphs/342_CityPopulationDensityDistribution.png">
+</p>
+
+**Comment:**
+<p align="justify"> 
+Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. 
+</p>
+
+
 
 **The most populated cities are: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; The least populated cities are:**
