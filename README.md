@@ -63,7 +63,7 @@ Mind the x-axis unit, logarithmic unit is used here to make the figure more read
 
 **Comment:**
 <p align="justify"> 
-Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The majority of the cities (36%) has a territory ranging from 10km<sup>2</sup> to 20 km<sup>2</sup> and 19% of the cities have an area between 20km<sup>2</sup> and 30 km<sup>2</sup>. Only one city has a territory lower than 1km<sup>2</sup>. 27% of the cities have an area below or equal to 10km<sup>2</sup>. 63% of the cities area go up to 20km<sup>2</sup>. The cities with a territory higher than 30km<sup>2</sup> account for a bit less than 10% of the cities. Finally, about 2% of the cities have an area lower than 1km<sup>2</sup> or higher than 70km<sup>2</sup>.
+Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The majority of the cities (36%) has a territory ranging from 10 km<sup>2</sup> to 20 km<sup>2</sup> and 19% of the cities have an area between 20 km<sup>2</sup> and 30 km<sup>2</sup>. Only one city has a territory lower than 1 km<sup>2</sup>. 27% of the cities have an area below or equal to 10 km<sup>2</sup>. 63% of the cities area go up to 20 km<sup>2</sup>. The cities with a territory higher than 30 km<sup>2</sup> account for a bit less than 10% of the cities. Finally, about 2% of the cities have an area lower than 1 km<sup>2</sup> or higher than 70 km<sup>2</sup>.
 </p>
 
 ### 3.3. City population density
@@ -80,7 +80,7 @@ Mind the x-axis unit, logarithmic unit is used here to make the figure more read
 
 **Comment:**
 <p align="justify"> 
-Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The most common density range is between 100 to 200 pop/km<sup>2</sup>. More than 50% of the cities have a density of at least 70 pop/km<sup>2</sup>. Around 20% of the cities have a density higher than 100 pop/km<sup>2</sup>.
+Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The most common density range is between 100 pop/km<sup>2</sup> to 200 pop/km<sup>2</sup>. More than 50% of the cities have a density of at least 70 pop/km<sup>2</sup>. Around 20% of the cities have a density higher than 100 pop/km<sup>2</sup>.
 </p>
 
 ## 4. Density spatial analysis
