@@ -27,7 +27,7 @@ The purpose of this study is to give some basic information about the demography
 
 **Comment:** 
 <p align="justify">
-Almost 21% of the department population lives in the biggest and most densely populated city, Rennes. The cities with the highest population have some of the highest density population (i.e. Rennes, Saint-Malo (5th highest density), Fougères). However, the third highest densely populated city (Bécherel) has only 722 inhabitants. This high density rate is due the size of its teritory, the smallest in the departement.
+Almost 21% of the department population lives in the biggest and most densely populated city, Rennes. The cities with the highest population have some of the highest density population (i.e. Rennes, Saint-Malo (5th highest density), Fougères). However, the third highest densely populated city (Bécherel) has only 722 inhabitants. This high density rate is due the size of its teritory, the smallest in the departement. The opposite phenomenon is happening for Paimpont, which has the lowest densely populated city due to the very large size of its territory, the biggest in the department.
 </p>
 
 ## 3. Data visualisation
@@ -46,7 +46,7 @@ Almost 21% of the department population lives in the biggest and most densely po
 
 **Comment:**
 <p align="justify"> 
-Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The most representated city population bin is between 1,000 to 2,000 inhabitants, it accounts for 30% of all the department cities. The second most represented population bin is the one ranging from 2,000 to 3,000 inhabitants (11%). Cities from 1,000 to 3,000 inhabitants represent about 41% of the department cities. 37% of the cities have up to 1,000 inhabitants. 68% of the cities have 2,000 inhabitants or less. Less than 10% of the cities have at least 5,000 inhabitants, finally cities accommodating 10,000 inhabitants account for only 1% of the department cities.
+Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The most representated city population bin is between 1,000 to 2,000 inhabitants, it accounts for 30% of all the department cities. The second most represented population bin is the one ranging from 2,000 to 3,000 inhabitants (11%). Cities from 1,000 to 3,000 inhabitants represent about 41% of the department cities. 37% of the cities have up to 1,000 inhabitants. 68% of the cities have 2,000 inhabitants or less. Less than 10% of the cities have at least 5,000 inhabitants. Finally, cities accommodating more than 10,000 inhabitants account for only 1% of the department cities.
 </p>
 
 ### 3.2. City area
@@ -63,7 +63,7 @@ Mind the x-axis unit, logarithmic unit is used here to make the figure more read
 
 **Comment:**
 <p align="justify"> 
-Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The majority of the cities (36%) have a territory ranging from 10km<sup>2</sup> to 20 km<sup>2</sup> and 19% of the cities have an area between 20km<sup>2</sup> and 30 km<sup>2</sup>. Only one city has a territory lower than 1km<sup>2</sup>. 27% of the cities have an area below or equal to 10km<sup>2</sup>. 63% of the cities area goes up to 20km<sup>2</sup>. The cities with a territory higher than 30km<sup>2</sup> account for a bit less than 10% of the cities. Finally, about 2 % of the cities have an area lower than 1km<sup>2</sup> or higher than 70km<sup>2</sup>.
+Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The majority of the cities (36%) has a territory ranging from 10km<sup>2</sup> to 20 km<sup>2</sup> and 19% of the cities have an area between 20km<sup>2</sup> and 30 km<sup>2</sup>. Only one city has a territory lower than 1km<sup>2</sup>. 27% of the cities have an area below or equal to 10km<sup>2</sup>. 63% of the cities area go up to 20km<sup>2</sup>. The cities with a territory higher than 30km<sup>2</sup> account for a bit less than 10% of the cities. Finally, about 2 % of the cities have an area lower than 1km<sup>2</sup> or higher than 70km<sup>2</sup>.
 </p>
 
 ### 3.3. City population density
