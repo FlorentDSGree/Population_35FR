@@ -80,9 +80,9 @@ Mind the x-axis unit, logarithmic unit is used here to make the figure more read
 
 **Comment:**
 <p align="justify"> 
-Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The most common density range is between 100 to 200 pop/km<sub>2</sub>. More than 50% of the cities have a density of at least 70 pop/km<sub>2</sub>. Around 20% of the cities have a density higher than 100 pop/km<sub>2</sub>.
+Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The most common density range is between 100 to 200 pop/km<sup>2</sup>. More than 50% of the cities have a density of at least 70 pop/km<sup>2</sup>. Around 20% of the cities have a density higher than 100 pop/km<sup>2</sup>.
 </p>
 
-
+## 4. Density spatial analysis
 
 **The most populated cities are: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; The least populated cities are:**
