@@ -8,7 +8,7 @@ The purpose of this study is to give some basic information about the demography
 
 ## 2. Statistics
 
-**Table 1: Basic statistics**
+**Table 1: General statistics**
  
   |               | Population | Area [km<sup>2</sup>] | Density [pop/km<sup>2</sup>]|
   |-------------- | ----------:| --------------------: | ---------------------------:|
