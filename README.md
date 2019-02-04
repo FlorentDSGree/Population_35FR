@@ -37,6 +37,7 @@ Almost 21% of the department population lives in the biggest and most densely po
 <p align="center"> 
   <img src="/Graphs/321_CityPopulation.png">
 </p>
+
 **Figure 2: Cumulative number of city per population bins**
 <p align="center"> 
   <img src="/Graphs/322_CityPopulationDistribution.png">
