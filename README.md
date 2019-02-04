@@ -27,9 +27,9 @@ The purpose of this study is to give some basic information about the demography
 |**Density [pop/km<sup>2</sup>]**|Rennes - 4 196 <br> Fougères - 1 934 <br> Bécherel - 1 289 |Paimpont - 15 <br> Rannée - 21 <br> Eancé - 24|
 
 **Comment**
-<t align="justify"> 
+<p align="justify"> 
 Almost 21% of the department population lives in the biggest and most densely populated city, Rennes. The cities with the highest population have some of the highest density population (i.e. Rennes, Saint-Malo (5th highest density), Fougères). However, the third highest densely populated city (Bécherel) has only 722 inhabitants. This high density rate is due the size of its teritory, the smallest in the departement.
-</t>
+</p>
 
 ## 3.Data visualisation
 
@@ -40,8 +40,8 @@ Almost 21% of the department population lives in the biggest and most densely po
 </p>
 
 **Comment**
-<t align="justify"> 
+<p align="justify"> 
 The most representated city population bins is between 1000 to 2000 inhabitants.
-</t>
+</p>
 
 **The most populated cities are: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; The least populated cities are:**
