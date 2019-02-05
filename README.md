@@ -85,4 +85,12 @@ Mind the x-axis unit, logarithmic unit is used here to make the figure more read
 
 ## 4. Density spatial analysis
 
-**The most populated cities are: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; The least populated cities are:**
+**Figure 7: Cumulative density of city per density population bins**
+<p align="center"> 
+  <img src="/Graphs/352_CityDensityPopulationVsDistanceToRennes.png">
+</p>
+
+**Comment:**
+<p align="justify"> 
+The closer, in term of distance, a city is to Rennes (most populated and densely populated city) the higher the population density is. The density decreases until around 25km from Rennes
+</p>
