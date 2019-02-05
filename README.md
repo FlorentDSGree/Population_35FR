@@ -85,12 +85,22 @@ Mind the x-axis unit, logarithmic unit is used here to make the figure more read
 
 ## 4. Density spatial analysis
 
-**Figure 7: Cumulative density of city per density population bins**
+**Figure 7: Density of city compare to distance to Rennes**
 <p align="center"> 
   <img src="/Graphs/352_CityDensityPopulationVsDistanceToRennes.png">
 </p>
 
 **Comment:**
 <p align="justify"> 
-The closer, in term of distance, a city is to Rennes (most populated and densely populated city) the higher the population density is. The density decreases until around 25km from Rennes
+The closer, in term of distance, a city is to Rennes (most populated and densely populated city) the higher the population density is. The density decreases until around 20km from Rennes, for further distance the density is generally constant with values slightly lower than 100 pop/km<sup>2</sup>. The cities that do not follow this trend are either other major cities or cities similar as Bécherel which has a tiny territory.
+</p>
+
+**Figure 8: Density of city compare to distance between Rennes and Saint-Malo**
+<p align="center"> 
+  <img src="/Graphs/354_CityDensityPopulationBetweenRennesAndSaintMalo.png">
+</p>
+
+**Comment:**
+<p align="justify"> 
+The phenomenon as on the previous figure can be seen here, the closer a city is to a major city, the higher the density is. The bigger the city is the clearer this phenomenon is. Around Rennes, this characteristics is observable up to 20km while for Saint-Malo it is visible up to about 5-10km.
 </p>
