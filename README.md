@@ -6,6 +6,7 @@ Analysis of the population of one French department (Ille-et-Vilaine - 35)
 The purpose of this study is to give some basic information about the demography of a French department (Ille-et-Vilaine - 35). The data are coming from the following French Government API https://geo.api.gouv.fr. The data used were up-to-date as of December 2018. The data have been queried for all the department and then saved as NoSQL database locally. Thus, there is no need anymore to query from the API (except to update with latest API data) and the analysis can be done offline.
 </p>
 
+[Link to test map](https://florentdsgree.github.io/Population_35FR/Graphs/points.html)
 
 ## 2. Statistics
 
