@@ -8,7 +8,13 @@ The purpose of this study is to give some basic information about the demography
 
 ## 2. Statistics
 
-[Interactive density map of Ille-et-Vilaine](https://florentdsgree.github.io/Population_35FR/Graphs/InteractiveMapDensityPopulation_35.html)
+**Map 1: Interactive density map of Ille-et-Vilaine**
+
+<p align="center"> 
+  <img src="/Graphs/InteractiveMapDensityPopulation_35_PrintScreen.png">
+</p>
+
+[Link to interactive density map of Ille-et-Vilaine](https://florentdsgree.github.io/Population_35FR/Graphs/InteractiveMapDensityPopulation_35.html)
 
 **Table 1: General statistics**
  
