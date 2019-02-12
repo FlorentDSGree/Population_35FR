@@ -34,6 +34,9 @@ Almost 21% of the department population lives in the biggest and most densely po
 
 ### 3.1. Interactive maps
 
+<iframe src="https://florentdsgree.github.io/Population_35FR/Graphs/InteractiveMapPopulation_35.html">
+</iframe>
+
 **Map 1: Interactive population map of Ille-et-Vilaine (Click it for interactivity!)**
 
 <p align="center">
