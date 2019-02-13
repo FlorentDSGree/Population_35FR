@@ -50,6 +50,14 @@ Almost 21% of the department population lives in the biggest and most densely po
   </a>
 </p>
 
+**Map 3: Interactive population and density map of Ille-et-Vilaine with range slider (Click it for interactivity!)**
+
+<p align="center">
+  <a href="https://florentdsgree.github.io/Population_35FR/Graphs/InteractiveMapDensityAndPopulationRangeSlider_35.html">
+  <img src="https://florentdsgree.github.io/Population_35FR/Graphs/InteractiveMapPopulationAndDensityRangeSlider_35_PrintScreen.PNG" width="400"/>
+  </a>
+</p>
+
 ### 3.2. City population
 
 **Figure 1: Number of city per population bins**
