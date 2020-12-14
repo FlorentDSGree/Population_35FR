@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Example</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <link href="http://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href= "index.css">
+</head>
+ 
+<body>
+	<div class="title1">Population in Ille-et-Vilaine (French department)</div>
+	<div class="title2">1. Introduction</div>
+	<p>The purpose of this study is to give some basic information about the demography of a French department (Ille-et-Vilaine - 35). 
+	   The data are coming from the following French Government API (<a href="https://geo.api.gouv.fr.">link</a>). The data used were 
+	   up-to-date as of December 2018. The data have been queried for all the department and then saved as NoSQL database locally. 
+	   Thus, there is no need anymore to query from the API (except to update with latest API data) and the analysis can be done 
+	   offline.</p>
+	<div class="title2">2. Statistics</div>
+	<div class="container">
+	  <div class="title4">Table 1: General statistics</div>
+	  <table class="table table-striped">
+		<thead>
+		  <tr>
+			<th></th>
+			<th>Population</th>
+			<th>Area [km<sup>2</sup>]</th>
+			<th>Density [pop/km<sup>2</sup>]</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td><b>Minimum</b></td>
+			<td>107</td>
+			<td>0.56</td>
+			<td>15</td>
+		  </tr>
+		  <tr>
+			<td><b>Median</b></td>
+			<td>1,314</td>
+			<td>15.81</td>
+			<td>74</td>
+		  </tr>
+		  <tr>
+			<td><b>Average</b></td>
+			<td>2,956</td>
+			<td>19.82</td>
+			<td>155</td>
+		  </tr>
+		  <tr>
+			<td><b>Maximum</b></td>
+			<td>211,373</td>
+			<td>110.66</td>
+			<td>4,196</td>
+		  </tr>
+		  <tr>
+			<td><b>Total</b></td>
+			<td>1,019,923</td>
+			<td>6,840.54</td>
+			<td>149</td>
+		  </tr>
+		</tbody>
+	  </table>
+	</div>
+	
+	<div class="container">
+	  <div class="title4">Table 2: Top 3 and bottom 3 cities for population, area and density</div>
+	  <table class="table table-striped">
+		<thead>
+		  <tr>
+			<th></th>
+			<th>Population</th>
+			<th>Area [km<sup>2</sup>]</th>
+			<th>Density [pop/km<sup>2</sup>]</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td><b>Top 3</b></td>
+			<td>Rennes - 211,373<br>Saint-Malo - 44,919<br>Fougères - 20,170</td>
+			<td>Paimpont - 110.66<br>Guipry-Messac - 92.3<br>Val d'Anast - 76.68</td>
+			<td>Rennes - 4,196<br>Fougères - 1,934<br>Bécherel - 1,289</td>
+		  </tr>
+		  <tr>
+			<td><b>Bottom 3</b></td>
+			<td>La Selle-Guerchaise - 154<br>Lanrigan - 149<br>Bléruais - 107</td>
+			<td>La Selle-Guerchaise - 2.17<br>Châteauneuf-d'Ille-et-Vilaine - 1.39<br>Bécherel - 0.56</td>
+			<td>Eancé - 24<br>Rannée - 21<br>Paimpont - 15</td>
+		  </tr>
+		</tbody>
+	  </table>
+	</div>
+	<p>Almost 21% of the department population lives in the biggest and most densely populated city, Rennes. The cities with the 
+	   highest population have some of the highest density population (i.e. Rennes, Saint-Malo (5th highest density), Fougères). 
+	   However, the third highest densely populated city (Bécherel) has only 722 inhabitants. This high density rate is due the 
+	   size of its teritory, the smallest in the departement. The opposite phenomenon is happening for Paimpont, which has the 
+	   lowest densely populated city due to the very large size of its territory, the biggest in the department.</p>
+	<div class="title2">3. Data visualisation</div>
+	<div class="title3">3.1. Interactive maps</div>
+	<div class="title4">Map 1: Interactive population map of Ille-et-Vilaine</div>
+	<p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/Population_35FR/Graphs/InteractiveMapPopulation_35.html" width="1200" height="650"></object></p>
+	<div class="title4">Map 2: Interactive population density map of Ille-et-Vilaine</div>
+	<p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/Population_35FR/Graphs/InteractiveMapDensityPopulation_35.html" width="1200" height="650"></object></p>
+	<div class="title4">Map 3: Interactive population and density map of Ille-et-Vilaine with range slider</div>
+	<p style="margin-left:25%;margin-right:25%;text-align:right"><object type="text/html" data="https://florentdsgree.github.io/Population_35FR/Graphs/InteractiveMapDensityAndPopulationRangeSlider_35.html" width="1200" height="650"></object></p>
+	<div class="title3">3.2. City population</div>
+	<div class="title4">Figure 1: Number of city per population bins</div>
+	<p align="center"><img src="https://florentdsgree.github.io/Population_35FR/Graphs/321_CityPopulation.png"></p>
+	<div class="title4">Figure 2: Cumulative number of city per population bins</div>
+	<p align="center"><img src="https://florentdsgree.github.io/Population_35FR/Graphs/322_CityPopulationDistribution.png"></p>
+	<p>Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The most representated city population 
+	   bin is between 1,000 to 2,000 inhabitants, it accounts for 30% of all the department cities. The second most represented 
+	   population bin is the one ranging from 2,000 to 3,000 inhabitants (11%). Cities from 1,000 to 3,000 inhabitants represent 
+	   about 41% of the department cities. 37% of the cities have up to 1,000 inhabitants. 68% of the cities have 2,000 inhabitants 
+	   or less. Less than 10% of the cities have at least 5,000 inhabitants. Finally, cities accommodating more than 10,000 
+	   inhabitants account for only 1% of the department cities.</p>
+	<div class="title3">3.3. City area</div>
+	<div class="title4">Figure 3: Area of city per area bins</div>
+	<p align="center"><img src="https://florentdsgree.github.io/Population_35FR/Graphs/331_CityArea.png"></p>
+	<div class="title4">Figure 4: Cumulative area of city per area bins</div>
+	<p align="center"><img src="https://florentdsgree.github.io/Population_35FR/Graphs/332_CityAreaDistribution.png"></p>
+	<p>Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The majority of the cities (36%) has a 
+	   territory ranging from 10 km<sup>2</sup> to 20 km<sup>2</sup> and 19% of the cities have an area between 20 km<sup>2</sup> and 
+	   30 km<sup>2</sup>. Only one city has a territory lower than 1 km<sup>2</sup>. 27% of the cities have an area below or equal to 
+	   10 km<sup>2</sup>. 63% of the cities area go up to 20 km<sup>2</sup>. The cities with a territory higher than 30 km<sup>2</sup> 
+	   account for a bit less than 10% of the cities. Finally, about 2% of the cities have an area lower than 1 km<sup>2</sup> or 
+	   higher than 70 km<sup>2</sup>.</p>
+	<div class="title3">3.4. City population density</div>
+	<div class="title4">Figure 5: Density of city per density population bins</div>
+	<p align="center"><img src="https://florentdsgree.github.io/Population_35FR/Graphs/341_CityPopulationDensity.png"></p>
+	<div class="title4">Figure 6: Cumulative density of city per density population bins</div>
+	<p align="center"><img src="https://florentdsgree.github.io/Population_35FR/Graphs/342_CityPopulationDensityDistribution.png"></p>
+	<p>Mind the x-axis unit, logarithmic unit is used here to make the figure more readible. The most common density range is between 
+	100 pop/km<sup>2</sup> to 200 pop/km<sup>2</sup>. More than 50% of the cities have a density of at least 70 pop/km<sup>2</sup>. 
+	Around 20% of the cities have a density higher than 100 pop/km<sup>2</sup>.
+	
+	<div class="title2">4. Density spatial analysis</div>
+	<div class="title4">Figure 7: Density of city compare to distance to Rennes</div>
+	<p align="center"><img src="https://florentdsgree.github.io/Population_35FR/Graphs/352_CityDensityPopulationVsDistanceToRennes.png"></p>
+	<p>The closer, in term of distance, a city is to Rennes (most populated and densely populated city) the higher the population density 
+	   is. The density decreases until around 20km from Rennes, for further distance the density is generally constant with values 
+	   slightly lower than 100 pop/km<sup>2</sup>. The cities that do not follow this trend are either other major cities or cities 
+	   similar as Bécherel which has a tiny territory.</p>
+	<div class="title4">Figure 8: Density of city compare to distance between Rennes and Saint-Malo</div>
+	<p align="center"><img src="https://florentdsgree.github.io/Population_35FR/Graphs/354_CityDensityPopulationBetweenRennesAndSaintMalo.png"></p>
+	<p>The phenomenon as on the previous figure can be seen here, the closer a city is to a major city, the higher the density is. The 
+	   bigger the city is the clearer this phenomenon is. Around Rennes, this characteristics is observable up to 20km while for 
+	   Saint-Malo it is visible up to about 5-10km.</p>
+
+
+</body>
+
+
+
+</html>
